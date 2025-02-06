@@ -21,6 +21,7 @@ class PelangganResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-user';
     protected static ?string $label = 'Data Pelanggan';
+    protected static ?string $navigationGroup = 'penjualan';
 
     public static function form(Form $form): Form
     {

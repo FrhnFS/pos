@@ -25,6 +25,7 @@ class PembelianResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-table-cells';
     protected static ?string $label = 'data pembelian';
+    protected static ?string $navigationGroup = 'Pembelian Barang';
 
     public static function form(Form $form): Form
     {

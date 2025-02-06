@@ -28,6 +28,7 @@ class PembelianItemResource extends Resource
     protected static ?string $model = PembelianItem::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-briefcase';
+    protected static ?string $navigationGroup = 'Pembelian Barang';
 
     public static function form(Form $form): Form
     {
